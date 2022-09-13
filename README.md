@@ -1,3 +1,14 @@
+# Main project screen, Web, Responsive and Mobile version
+
+![Tela Filme](https://user-images.githubusercontent.com/83782010/189933410-436b6fbf-ad33-4107-a37d-d9fedb3943c2.png)
+![Tela Descrição](https://user-images.githubusercontent.com/83782010/189933451-7c63ed6e-1a63-4dc0-97b5-ef4143368d62.png)
+![Tela responsiva](https://user-images.githubusercontent.com/83782010/189933466-6e4cf0b9-03aa-41fc-83f3-9e365c3bbfa4.png)
+![Tela responsiva2](https://user-images.githubusercontent.com/83782010/189933485-320c997c-ac7b-4e5a-a74c-f6e89b033091.png)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
