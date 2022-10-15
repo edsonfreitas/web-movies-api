@@ -1,16 +1,14 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { APIkey } from "../../config/key";
 import { Container, Movie, MovieList } from "./styles";
 
 function Home() {
   const imagePath = "https://image.tmdb.org/t/p/w500/";
 
   const [movies, setMovies] = useState([]);
-
   useEffect(() => {
     fetch(
-      `https://api.themoviedb.org/3/movie/popular?api_key=${APIkey}&language=en-US`
+      `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_SECRET_KEY}&language=en-US`
     )
       .then((response) => response.json())
       .then((data) => {
