@@ -4,8 +4,25 @@ export const Container = styled.div`
         text-align: center;
         margin: 4rem 0;
     }
-
+    div{
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    input{   
+        width: 80%;
+        background: transparent;
+        color: #fff;
+        padding: 5px 30px 5px 30px;
+        margin: 0 0 3rem 0;
+        border-radius: 8px; 
+        border: 1px solid #dcdcdd;
+        font-size: 1.5rem;
+    },
 `
+
+
 /* ESTILIZANDO COM A BIBLIOTECA
 https://styled-components.com/
 INSTALAÇÃO
