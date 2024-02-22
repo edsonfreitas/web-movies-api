@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    padding: 4rem 0;
 
-        padding: 4rem 0;
-        
     h1{
     margin: 3rem 0;
     }
@@ -21,16 +20,16 @@ export const Container = styled.div`
         }
         div.details{
             display: flex;
-            flex-direction: column; 
+            flex-direction: column;
             align-items: flex-start;
             max-width: 100%;
             margin: 0px 0px;
         }
-        span{  
+        span{
             margin-bottom: 0.5rem;
             font-size: 100%;
         }
-        
+
     }
     img{
         border-radius: 1rem;
@@ -38,14 +37,14 @@ export const Container = styled.div`
     }
     .details{
       display: flex;
-      flex-direction: column; 
+      flex-direction: column;
       align-items: flex-start;
       margin-left: 4rem;
       max-width: 50%;
     }
     button{
       background: #06068a;
-      border: none;  
+      border: none;
       cursor: pointer;
       border-radius: 1rem;
       color: #fff;
@@ -58,7 +57,7 @@ export const Container = styled.div`
         background: #080871;
     }
     span{
-     line-height: 130%;  
+     line-height: 130%;
      margin-bottom: 1rem;
      font-size: 110%;
     }
